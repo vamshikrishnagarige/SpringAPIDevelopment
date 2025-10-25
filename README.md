@@ -8,7 +8,7 @@ In IntelliJ Idea:
 ![IntelliJ_Plugin_Lombok.png](src/main/resources/static/IntelliJ_Plugin_Lombok.png)
 
 2. Step 2: Post installation, Go to File -> Settings -> Build, Execution, Deployment -> Compiler -> Annotation Processors -> Enable "Enable annotation processing"
-![IntelliJ_Plugin_Lombok.png](src/main/resources/static/IntelliJ_Plugin_Lombok.png)
+![IntelliJ_Enable_Annotation_Processing.png](src/main/resources/static/IntelliJ_Enable_Annotation_Processing.png)
 The above 2nd step will ensure all the lombok annotations work as expected. This setting is mainly for annotations like @AllArgsConstructor, @NoArgsConstructor, etc.
 
 Edit the application.properties file with your database details and verify if the build is successful.
