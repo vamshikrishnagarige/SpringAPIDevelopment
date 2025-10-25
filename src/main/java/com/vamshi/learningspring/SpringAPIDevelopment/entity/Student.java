@@ -15,14 +15,12 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Students {
+public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String name;
-    //private String email;
 
-//    private Long departmentId;
-//    private Long subjectId;
+    private String name;
+    private String email;
 }

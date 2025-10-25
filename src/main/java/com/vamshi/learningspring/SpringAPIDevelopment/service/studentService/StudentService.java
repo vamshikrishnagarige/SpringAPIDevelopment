@@ -1,5 +1,6 @@
 package com.vamshi.learningspring.SpringAPIDevelopment.service.studentService;
 
+import com.vamshi.learningspring.SpringAPIDevelopment.dto.student.AddStudentRequestDto;
 import com.vamshi.learningspring.SpringAPIDevelopment.dto.student.StudentDto;
 
 import java.util.List;
@@ -14,4 +15,6 @@ public interface StudentService {
     List<StudentDto> getAllStudents();
 
     StudentDto getStudentById(Long id);
+
+    StudentDto addNewStudent(AddStudentRequestDto addStudentRequestDto);
 }

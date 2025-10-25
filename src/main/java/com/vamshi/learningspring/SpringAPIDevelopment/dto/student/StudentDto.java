@@ -19,7 +19,7 @@ import lombok.Getter;
 public class StudentDto {
     private Long id;
     private String name;
-//    private String email;
+    private String email;
 //    private Long departmentId;
 //    private Long subjectId;
 }
