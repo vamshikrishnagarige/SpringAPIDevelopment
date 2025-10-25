@@ -4,10 +4,11 @@ The prerequisite is to have the Postgres Database installed on your machine.
 Install Lombok plugin on your IDE to ensure the lombok annotations work as expected.
 
 In IntelliJ Idea:
-**1.** **Step 1:** Go to File -> Settings -> Plugins -> Marketplace -> Lombok plugin -> Install.
+
+1. **Step 1:** Go to File -> Settings -> Plugins -> Marketplace -> Lombok plugin -> Install.
 ![IntelliJ_Plugin_Lombok.png](src/main/resources/static/IntelliJ_Plugin_Lombok.png)
 
-**2.** **Step 2:** Post installation, Go to File -> Settings -> Build, Execution, Deployment -> Compiler -> Annotation Processors -> Enable "Enable annotation processing"
+2. **Step 2:** Post installation, Go to File -> Settings -> Build, Execution, Deployment -> Compiler -> Annotation Processors -> Enable "Enable annotation processing"
 ![IntelliJ_Enable_Annotation_Processing.png](src/main/resources/static/IntelliJ_Enable_Annotation_Processing.png)
 
 In Eclipse IDE:
