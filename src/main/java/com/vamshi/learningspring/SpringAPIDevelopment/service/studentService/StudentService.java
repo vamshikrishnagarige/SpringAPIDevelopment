@@ -4,6 +4,7 @@ import com.vamshi.learningspring.SpringAPIDevelopment.dto.student.AddStudentRequ
 import com.vamshi.learningspring.SpringAPIDevelopment.dto.student.StudentDto;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Author: Vamshi Krishna Garige
@@ -17,4 +18,10 @@ public interface StudentService {
     StudentDto getStudentById(Long id);
 
     StudentDto addNewStudent(AddStudentRequestDto addStudentRequestDto);
+
+    void deleteStudentById(Long id);
+
+    StudentDto updateStudent(Long id, AddStudentRequestDto updateStudentRequestDto);
+
+    StudentDto partiallyUpdateStudent(Long id, Map<String, Object> updates);
 }
